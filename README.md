@@ -22,6 +22,18 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+Play (interactive):
 ```
-python lab2\test_solver.py
+python play_minesweeper.py
 ```
+
+Test:
+```
+pytest test_minesweeper.py
+```
+
+Test solvers:
+```
+python test_solver.py
+```
+You can change game's settings in `test_solver.py`, if you need.
